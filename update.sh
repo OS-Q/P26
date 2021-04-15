@@ -12,4 +12,4 @@ cp -f ../link.py .
 
 git add .
 git commit -am "update by github action"
-git push
+git push origin gh
