@@ -1,0 +1,28 @@
+{
+  "name": "P26",
+  "title": "Synwit SWM320",
+  "description": "Synwit 32-bit MCU development platform",
+  "url": "http://www.synwit.cn/index.html",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "frameworks": {
+    "cmsis": {
+      "package": "framework-cmsis",
+      "script": "extend/frameworks/cmsis.py"
+    }
+  },
+  "packages": {
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "version": ">=1.60301.0,<1.80000.0"
+    },
+    "framework-cmsis": {
+      "type": "framework",
+      "version": "~2.50501.0"
+    },
+    "tool-jlink": {
+      "type": "uploader",
+      "version": "^1.63208.0"
+    }
+  }
+}
